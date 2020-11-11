@@ -1,0 +1,25 @@
+
+1) Explain REST and RESTful
+
+=>REST: (Representational State Transfer) is a style of software architecture that defines a set of constraints to be used for creating Web services
+=>RESTful is typically used to refer to web services that conform to the REST architectural style
+
+2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
+
+
+3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
+=> HTTP defines a set of request methods that indicate the action to be taken on the indicated resource, each of them implements different semantics but some common features can be shared by different methods
+GET: Use GET requests to retrieve resource representation/information only – and not to modify it in any way
+PUT: Use PUT APIs primarily to update existing resource (if the resource does not exist, then API may decide to create a new resource or not)
+POST: POST methods are used to create a new resource into the collection of resources
+
+4) Explain the difference between stateless and stateful protocol. Which type of protocol is HTTP ?
+=> A stateless protocol does not require the server to retain session information or status about each communicating partner for the duration of multiple requests. In contrast, a protocol that requires keeping of the internal state on the server is known as a stateful protocol
+=> HTTP is a stateless protocol when layered on top of TCP, and is a stateful protocol when layered on top of IP
+
+5) Explain the difference between a GET and a POST (like how are sent the parameters)
+=> GET: can send but the parameter data is limited to what we can stuff into the request line (URL). Safest to use less than 2K of parameters, some servers handle up to 64K
+=> POST: Can send parameters, including uploading files, to the server
+
+6) You can’t work out how to solve a coding problem. What do you do to find the answer?
+after a personal effort by searching on the net to find the solution to the problem, I will ask those around me (my work team) to help me so as not to waste a lot of time and not remain non-productive for a long time
