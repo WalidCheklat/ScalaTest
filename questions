@@ -5,7 +5,7 @@
 =>RESTful is typically used to refer to web services that conform to the REST architectural style
 
 2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
-
+=> 
 
 3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
 => HTTP defines a set of request methods that indicate the action to be taken on the indicated resource, each of them implements different semantics but some common features can be shared by different methods
